@@ -1,0 +1,14 @@
+.action:hover {
+    cursor: pointer;
+}
+.action {
+    font-family: 'montserrat' sans-serif;
+    color: #6B808C;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+}
+.add-column > textarea {
+    height: 50px;
+}

@@ -1,0 +1,81 @@
+.add-form {
+    padding-bottom: 12px;
+}
+.add-form:hover {
+    cursor: pointer;
+}
+.add-note {
+    padding-bottom: 12px;
+}
+.adder span {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+    color: #6B808C;
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 45px;
+}
+
+.adder > .add-column-form {
+    padding: 12px;
+}
+
+.vector {
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    margin-right: 12px;
+    margin-left: 8px;
+    height: 15px;
+    width: 2px;
+    background-color:#6B808C;
+    transform: rotate(90deg);
+    Z-index: 1;
+}
+.column > .column-footer {
+    margin-top: 8px;
+}
+.adder .vector {
+    top: 3px;
+    margin-left: 12px;
+    margin-right: 8px;
+}
+
+.vector_two {
+    height: 15px;
+    width: 2px;
+    background-color:#6B808C;
+    transform: rotate(270deg);
+    Z-index: 2;
+}
+.cross {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    height: 21.21px;
+    width: 1px;
+    margin-left: 81px;
+    background-color:#6B808C;
+    transform: rotate(45deg);
+    Z-index: 1;
+  }
+  .cross:hover {
+    cursor: pointer;
+}
+.cross_two {
+    height: 21.21px;
+    width: 1px;
+    background-color:#6B808C;
+    transform: rotate(90deg);
+    Z-index: 2;
+  }
+  
+.adder {
+    background: #DFE3E6;
+    padding: 0;
+    border-radius: 3px;
+    min-width: 272px;
+}

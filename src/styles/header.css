@@ -1,0 +1,32 @@
+.column-header {
+    word-break: break-all;
+    display: inline-block;
+    text-align: left;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(82, 106, 122);
+    margin: 0;
+    margin-bottom: 10px;
+}
+.delete-column {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    height: 21.21px;
+    width: 1px;
+    margin-left: 35px;
+    background-color:#6B808C;
+    transform: rotate(45deg);
+    Z-index: 1;
+  }
+  .delete-column:hover {
+    cursor: pointer;
+}
+  .delete-column-two{
+    height: 21.21px;
+    width: 1px;
+    background-color: #6B808C;
+    transform: rotate(90deg);
+    Z-index: 2;
+  }

@@ -1,0 +1,84 @@
+.notes {
+    max-height: 70vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.note-text{
+    display: inline-block;
+      width: 200px;
+  }
+  .note {
+    position: relative;
+	cursor: default;
+	width: 100%;
+    margin-bottom: 8px;
+    padding-bottom: 12px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(9, 45, 66, 0.25);
+    border-radius: 3px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+    word-wrap: break-word;
+    text-align: left;
+
+    transition: background-color 0.2s linear;
+}
+
+.note:hover {
+	background-color: #e3f2fd;
+    cursor: pointer;
+}
+
+.note:focus {
+	cursor: auto;
+}
+
+.note textarea {
+	margin: 0;
+}
+
+.note.dragged {
+	opacity: 0.01;
+}
+.note.under {
+	opacity: 0.5;
+}
+.cross-img{
+    position: relative;
+    left: 10px;
+}
+.delete-note{
+    position: relative;
+    display: inline-block;
+    height: 21.21px;
+    width: 1px;
+    margin-left: 20px;
+    background-color:#6B808C;
+    transform: rotate(45deg);
+    Z-index: 1;
+  }
+  
+  .delete-note-two{
+    height: 21.21px;
+    width: 1px;
+    background-color: #6B808C;
+    transform: rotate(90deg);
+    Z-index: 2;
+  }
+  .shadow {
+    cursor: default;
+	padding: 10px;
+	border: none;
+    margin-bottom: 8px;
+    background: #C9D2D9;
+    border-radius: 3px; 
+}
